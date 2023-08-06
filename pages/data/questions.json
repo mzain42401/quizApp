@@ -1,0 +1,55 @@
+{
+    "questions": [
+      {
+        "question": "What is the SI unit of force?",
+        "options": ["Newton", "Watt", "Joule", "Volt"],
+        "correct_answer": "Newton"
+      },
+      {
+        "question": "Which scientist proposed the theory of general relativity?",
+        "options": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Marie Curie"],
+        "correct_answer": "Albert Einstein"
+      },
+      {
+        "question": "What is the acceleration due to gravity on Earth?",
+        "options": ["9.8 m/s²", "6.7 m/s²", "5.2 m/s²", "7.9 m/s²"],
+        "correct_answer": "9.8 m/s²"
+      },
+      {
+        "question": "What is the first law of thermodynamics also known as?",
+        "options": ["Law of Conservation of Mass", "Law of Energy Conservation", "Law of Entropy", "Law of Conservation of Energy"],
+        "correct_answer": "Law of Energy Conservation"
+      },
+      {
+        "question": "Which type of waves are used in communication systems ?",
+        "options": ["Sound waves", "Gamma rays", "Microwaves", "Ultraviolet rays"],
+        "correct_answer": "Microwaves"
+      },
+      {
+        "question": "What does the acronym 'AC' stand for in AC circuits?",
+        "options": ["Alternating Current", "Always Connected", "Amplified Current", "Analog Circuit"],
+        "correct_answer": "Alternating Current"
+      },
+      {
+        "question": "Which states 'Every action has an equal and opposite reaction'?",
+        "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Newton's Law of Gravity"],
+        "correct_answer": "Newton's Third Law"
+      },
+      {
+        "question": "What is the phenomenon of a wave bending around obstacles?",
+        "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+        "correct_answer": "Diffraction"
+      },
+      {
+        "question": "Which subatomic particle has a negative charge?",
+        "options": ["Proton", "Neutron", "Electron", "Positron"],
+        "correct_answer": "Electron"
+      },
+      {
+        "question": "What is the speed of light in a vacuum?",
+        "options": ["299,792,458 meters per second", "100,000,000 meters per second", "500,000,000 meters per second", "186,282,397 meters per second"],
+        "correct_answer": "299,792,458 meters per second"
+      }
+    ]
+  }
+  

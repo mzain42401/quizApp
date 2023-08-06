@@ -16,12 +16,129 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-color: rgb(237, 236, 236);
+ font-family: sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px gray;
+  height: 55px;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #007fff;
+  font-weight: bolder;
+
+}
+.logoImg{
+  height: 40px;
+  width: 150px;
+}
+.navLink{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13%;
+}
+.signin,.logout{
+  cursor: pointer;
+}
+.startBTN{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #007fff;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+.mainContainer{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%,-50%);
+
+}
+.question{
+
+  margin-bottom: 20px;
+  color: #fff;
+  border-radius: 5px ;
+  background-color: #007fff;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+  background-color: #fff;
+  box-shadow: 3px 5px 5px gray;
+  border-radius: 5px;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  margin: 13px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+ul li:checked{
+  background-color: red;
+}
+ul li:hover{
+  background-color: #00BFFF;
+}
+.btnDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+margin-top: 10px;
+}
+.outOff{
+  font-size: 14px ;
+  font-weight: bold;
+}
+.nextBtn{
+  padding: 8px 20px;
+  border-radius: 5px;
+cursor: pointer;
+box-shadow: 3px 5px 5px gray;
+
+  color: #fff;
+  border: none;
+  background-color: #007fff;
+
+}
+.checked{
+  background-color: #00BFFF;
+}
+.circle{
+  background-color: #007fff;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
