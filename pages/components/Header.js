@@ -5,17 +5,17 @@ import logo from '../../public/logo.png'
 import { signOut, useSession } from 'next-auth/react'
 
 const Header = () => {
-const isSession=  useSession()
-console.log(isSession);
+const {data}=  useSession()
+console.log(data);
   return (
     <>
       <nav>
         
-        <Link href={"/"} className="logo"><Image alt='logo' className='logoImg' src={logo}/></Link>
+        <div className="logo"><Image alt='logo' className='logoImg' src={logo}/></div>
         <div className="navLink">
             
             {
-          isSession?<button onClick={signOut}>Logout</button>:<Link href={"/auth/signin"} className="signin">signin</Link>
+          data?<button onClick={()=>signOut({callbackUrl: '/'})}>Logout</button>:<Link href={"/auth/signin"} className="signin">signin</Link>
         }
             
         </div>

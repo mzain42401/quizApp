@@ -4,10 +4,7 @@ import { signIn } from 'next-auth/react'
 const signin = () => {
   const onSubmit = (email, password) => {
     signIn('credentials', {
-      redirect: {
-        destination:"/quiz",
-    permanent:false
-  },
+      callbackUrl: '/quiz',
       email,
        password
     })
